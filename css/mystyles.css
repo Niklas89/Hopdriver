@@ -1,0 +1,58 @@
+/*YOUR CUSTOM STYLES
+bright-turquoise
+cerise
+denim
+de-york
+hippie-blue
+horizon
+leather
+mandy
+salem
+scarlet
+shamrock
+studio
+turkish-rose
+
+*/
+
+@import  'schemes/bright-turquoise.css';
+
+#ok {
+	color:green;
+}
+#erreurid {
+	color:red;
+}
+.labelindex{
+	color:#fff;
+}
+
+#selectbrand {
+	max-width:200px;
+}
+
+.top-user-area-list {
+	font-size:14px;
+	font-weight:bold;
+}
+
+.reservation-confirmation-img img {
+  -webkit-border-radius: 20%;
+  border-radius: 20%;
+}
+
+.services-class-img .booking-item-car-img img {
+ 
+  margin-bottom: 15px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.code {
+
+    font-family: monospace;
+    color: #888;
+
+}
+
+

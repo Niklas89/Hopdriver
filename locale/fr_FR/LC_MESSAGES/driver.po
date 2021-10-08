@@ -1,0 +1,1545 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: hopdriver drivers\n"
+"POT-Creation-Date: 2016-11-09 16:30+0100\n"
+"PO-Revision-Date: 2016-11-09 16:30+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: _\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: calcul-itineraire\n"
+"X-Poedit-SearchPathExcluded-1: js\n"
+"X-Poedit-SearchPathExcluded-2: documentation\n"
+"X-Poedit-SearchPathExcluded-3: css\n"
+"X-Poedit-SearchPathExcluded-4: media\n"
+"X-Poedit-SearchPathExcluded-5: inbox\n"
+"X-Poedit-SearchPathExcluded-6: backoff\n"
+"X-Poedit-SearchPathExcluded-7: cgi-bin\n"
+"X-Poedit-SearchPathExcluded-8: includes\n"
+"X-Poedit-SearchPathExcluded-9: PHPMailer_5.2.4\n"
+"X-Poedit-SearchPathExcluded-10: phptest\n"
+"X-Poedit-SearchPathExcluded-11: sql\n"
+"X-Poedit-SearchPathExcluded-12: img\n"
+"X-Poedit-SearchPathExcluded-13: fonts\n"
+"X-Poedit-SearchPathExcluded-14: transfer\n"
+"X-Poedit-SearchPathExcluded-15: disposal\n"
+"X-Poedit-SearchPathExcluded-16: backoff\n"
+"X-Poedit-SearchPathExcluded-17: client\n"
+"X-Poedit-SearchPathExcluded-18: blog\n"
+"X-Poedit-SearchPathExcluded-19: rating\n"
+"X-Poedit-SearchPathExcluded-20: driver/disposal-accepted.php\n"
+
+#: cities.php:42
+msgid "Drivers in 6 Countries"
+msgstr "Chauffeurs dans 6 Pays"
+
+#: contact.php:76 contact.php:111
+msgid "Contact Us"
+msgstr "Contactez-nous"
+
+#: contact.php:116
+msgid ""
+"Fill in the form below if you have any questions regarding your reservation "
+"or other and we'll get back to you within 24 hours."
+msgstr ""
+"Merci de bien vouloir remplir le formulaire ci-dessous si vous avez des "
+"questions sur votre reservation ou sur un autre sujet, nous vous répondrons "
+"dans les 24 heures."
+
+#: contact.php:125
+msgid "Name"
+msgstr "Nom"
+
+#: contact.php:131 driver/profile-settings.php:330
+msgid "E-mail"
+msgstr "E-mail"
+
+#: contact.php:137
+msgid "Message"
+msgstr "Message"
+
+#: contact.php:150 driver/login.php:349 driver/login.php:393 legal.php:67
+#: newpassword.php:514
+msgid "Email"
+msgstr "Email"
+
+#: contact.php:153
+msgid "Phone/Whatsapp"
+msgstr "Tel/Whatsapp"
+
+#: contact.php:153
+msgid "Available 24/7"
+msgstr "Disponible 24/24 et 7/7"
+
+#: contact.php:156
+msgid "Address"
+msgstr "Adresse"
+
+#: driver/disposaldetails.php:33
+msgid "Disposal Details"
+msgstr "Détails de Mise à Dispo"
+
+#: driver/disposaldetails.php:37 driver/disposals.php:372 driver/login.php:286
+#: driver/payment-settings.php:148 driver/price-settings.php:465
+#: driver/profile-settings.php:274 driver/profile.php:40 driver/support.php:39
+#: driver/transferdetails.php:37 driver/transfers.php:382
+#: driver/vehicle-settings.php:638 newpassword.php:453
+msgid "airport transfers, private transfer, HopDriver, disposal services"
+msgstr "transferts aéroports, chauffeur privé, HopDriver, mise à disposition"
+
+#: driver/disposaldetails.php:38 driver/disposals.php:373 driver/login.php:287
+#: driver/payment-settings.php:149 driver/price-settings.php:466
+#: driver/profile-settings.php:275 driver/profile.php:41 driver/support.php:40
+#: driver/transferdetails.php:38 driver/transfers.php:383
+#: driver/vehicle-settings.php:639 newpassword.php:454
+msgid "HopDriver - private transfers and disposal services"
+msgstr "HopDriver - transferts privé et mises à disposition"
+
+#: driver/disposaldetails.php:64
+msgid "New Disposal"
+msgstr "Nouvelle Mise à Dispo"
+
+#: driver/disposaldetails.php:76
+msgid "Disposal details are indicated below"
+msgstr "Les détails de la mise à dispo sont indiqués ci-dessous"
+
+#: driver/disposaldetails.php:96 driver/disposals.php:416
+#: driver/profile.php:123 driver/profile.php:190 driver/transferdetails.php:96
+#: driver/transfers.php:426
+msgid "Vehicle"
+msgstr "Véhicule"
+
+#: driver/disposaldetails.php:97 driver/disposals.php:417
+#: driver/profile.php:191
+msgid "Pick-Up Location"
+msgstr "Adresse de Départ"
+
+#: driver/disposaldetails.php:98 driver/disposals.php:418
+#: driver/profile.php:126 driver/profile.php:192 driver/transferdetails.php:99
+#: driver/transfers.php:429
+msgid "Pick-Up Date"
+msgstr "Date"
+
+#: driver/disposaldetails.php:99 driver/disposals.php:419
+#: driver/profile.php:127 driver/profile.php:193 driver/transferdetails.php:100
+#: driver/transfers.php:430
+msgid "Pick-Up Time"
+msgstr "Heure"
+
+#: driver/disposaldetails.php:100 driver/disposals.php:420
+#: driver/profile.php:194
+msgid "Last Day"
+msgstr "Dernier Jour"
+
+#: driver/disposaldetails.php:101
+msgid "Last Day Drop-Off Time"
+msgstr "Heure de fin Mise à Dispo"
+
+#: driver/disposaldetails.php:102
+msgid "Last Day Drop-Off Location"
+msgstr "Date de fin Mise à Dispo"
+
+#: driver/disposaldetails.php:103 driver/disposals.php:421
+#: driver/profile.php:195
+msgid "Hours / Day"
+msgstr "Heures / Jour"
+
+#: driver/disposaldetails.php:104 driver/transferdetails.php:103
+msgid "Client Name"
+msgstr "Nom Client"
+
+#: driver/disposaldetails.php:105 driver/transferdetails.php:104
+msgid "Flight Number"
+msgstr "Numéro de Vol"
+
+#: driver/disposaldetails.php:106 driver/transferdetails.php:105
+msgid "Phone"
+msgstr "Téléphone"
+
+#: driver/disposaldetails.php:107 driver/transferdetails.php:106
+msgid "Comments"
+msgstr "Commentaires"
+
+#: driver/disposaldetails.php:109 driver/disposals.php:461
+#: driver/profile.php:163 driver/profile.php:232 driver/transferdetails.php:108
+#: driver/transfers.php:472
+msgid "Cancel"
+msgstr "Annuler"
+
+#: driver/disposaldetails.php:112 driver/disposals.php:466
+#: driver/profile.php:168 driver/profile.php:237 driver/transferdetails.php:111
+#: driver/transfers.php:477
+msgid "Accept"
+msgstr "Accepter"
+
+#: driver/disposals.php:72 driver/disposals.php:243
+msgid "Not Specified"
+msgstr "Non Précisé"
+
+#: driver/disposals.php:160 driver/transfer-accepted.php:152
+#: driver/transfers.php:164
+msgid "Your driver for"
+msgstr "Votre chauffeur pour"
+
+#: driver/disposals.php:160 driver/transfer-accepted.php:152
+#: driver/transfers.php:164
+msgid "at"
+msgstr "à"
+
+#: driver/disposals.php:368 driver/disposals.php:399 driver/profile.php:89
+#: driver/profile.php:98
+msgid "New Disposals"
+msgstr "Nouvelles mises à disposition"
+
+#: driver/disposals.php:411
+msgid "Accept disposals in the list below"
+msgstr "Acceptez les mises à dispo dans la liste ci-dessous"
+
+#: driver/disposals.php:422 driver/profile.php:128 driver/profile.php:196
+#: driver/transfers.php:431
+msgid "Details"
+msgstr "Détails"
+
+#: driver/disposals.php:423 driver/profile.php:129 driver/profile.php:197
+#: driver/transfers.php:432
+msgid "Confirmed"
+msgstr "Confirmé"
+
+#: driver/disposals.php:424 driver/profile.php:130 driver/profile.php:198
+#: driver/transfers.php:433
+msgid "Accept/Cancel"
+msgstr "Accepter/Annuler"
+
+#: driver/disposals.php:457 driver/profile.php:159 driver/profile.php:228
+#: driver/transfers.php:469
+msgid "Infos"
+msgstr "Infos"
+
+#: driver/login.php:63 newpassword.php:144
+msgid "Please fill in the form correctly."
+msgstr "Veuillez remplir le formulaire correctement."
+
+#: driver/login.php:108 driver/price-settings.php:73
+#: driver/price-settings.php:163 driver/price-settings.php:246
+#: driver/price-settings.php:318 driver/price-settings.php:393
+#: driver/profile-settings.php:49 driver/profile-settings.php:111
+#: driver/vehicle-settings.php:91 driver/vehicle-settings.php:208
+#: driver/vehicle-settings.php:323 driver/vehicle-settings.php:427
+#: driver/vehicle-settings.php:532 newpassword.php:347
+msgid "Please fill in all the fields."
+msgstr "Veuillez remplir tous les champs."
+
+#: driver/login.php:160
+msgid "This driver already exists."
+msgstr "Ce chauffeur existe déjà."
+
+#: driver/login.php:266 driver/profile-settings.php:164 newpassword.php:432
+msgid "Password must be at least 6 characters long."
+msgstr "Le mot de passe doit contenir au moins 6 caractères."
+
+#: driver/login.php:271
+msgid "Invalid email."
+msgstr "Email invalide."
+
+#: driver/login.php:282
+msgid "Partners"
+msgstr "Partenaires"
+
+#: driver/login.php:323
+msgid "Choose your driver"
+msgstr "Choisissez votre chauffeur"
+
+#: driver/login.php:324
+msgid ""
+"Compare and select your driver. The driver offers his own price and you pay "
+"him on-site."
+msgstr ""
+"Comparez et choisissez votre chauffeur. Le chauffeur propose son propre prix "
+"et vous le payerez sur place."
+
+#: driver/login.php:328
+msgid "Login"
+msgstr "Connexion"
+
+#: driver/login.php:353 driver/login.php:397
+msgid "Password"
+msgstr "Mot de passe"
+
+#: driver/login.php:358 newpassword.php:449 newpassword.php:492
+#: newpassword.php:533
+msgid "Forgot your password?"
+msgstr "Mot de passe oublié?"
+
+#: driver/login.php:361
+msgid "Sign in"
+msgstr "Connexion"
+
+#: driver/login.php:365
+msgid "Registration"
+msgstr "Inscription"
+
+#: driver/login.php:385 driver/login.php:386 driver/profile-settings.php:322
+msgid "First Name"
+msgstr "Prénom"
+
+#: driver/login.php:389 driver/login.php:390 driver/profile-settings.php:326
+msgid "Last Name"
+msgstr "Nom de Famille"
+
+#: driver/login.php:394
+msgid "name@email.com"
+msgstr "nom@email.com"
+
+#: driver/login.php:398
+msgid "At least 6 characters"
+msgstr "Au moins 6 caractères"
+
+#: driver/login.php:401
+msgid "Submit form"
+msgstr "Envoyer"
+
+#: driver/login.php:414 driver/login.php:422 driver/login.php:427
+#: newpassword.php:579 newpassword.php:587 newpassword.php:592
+msgid "Language"
+msgstr "Langue"
+
+#: driver/payment-settings.php:103 driver/price-settings.php:110
+#: driver/price-settings.php:202 driver/price-settings.php:279
+#: driver/price-settings.php:352 driver/price-settings.php:426
+#: driver/vehicle-settings.php:143 driver/vehicle-settings.php:264
+#: driver/vehicle-settings.php:372 driver/vehicle-settings.php:476
+#: driver/vehicle-settings.php:582
+msgid "Settings succesfully saved."
+msgstr "Paramètres changes avec succès"
+
+#: driver/payment-settings.php:124 driver/price-settings.php:137
+#: driver/price-settings.php:224 driver/price-settings.php:297
+#: driver/price-settings.php:371 driver/price-settings.php:444
+#: driver/profile-settings.php:95 driver/profile-settings.php:161
+#: driver/vehicle-settings.php:179 driver/vehicle-settings.php:301
+#: driver/vehicle-settings.php:406 driver/vehicle-settings.php:509
+#: driver/vehicle-settings.php:616
+msgid "Settings succesfully changed."
+msgstr "Paramètres changes avec succès"
+
+#: driver/payment-settings.php:144 driver/payment-settings.php:175
+msgid "Payment Settings"
+msgstr "Réglages du Paiement"
+
+#: driver/payment-settings.php:207
+msgid "Select how you would like to be paid by the passenger"
+msgstr "Sélectionnez comment vous souhaitez être payé par le passager"
+
+#: driver/payment-settings.php:215 driver/transfer-confirmation.php:416
+msgid "Cash"
+msgstr "Espèce"
+
+#: driver/payment-settings.php:219 driver/transfer-confirmation.php:413
+msgid "Credit Card"
+msgstr "Carte de Crédit"
+
+#: driver/payment-settings.php:224
+msgid "Additional Elements Onboard"
+msgstr "Éléments supplémentaires à bord"
+
+#: driver/payment-settings.php:230
+msgid "Bottles of water"
+msgstr "Bouteilles d'eau"
+
+#: driver/payment-settings.php:234 driver/transfer-confirmation.php:387
+msgid "Wifi"
+msgstr "Wifi"
+
+#: driver/payment-settings.php:238 driver/transfer-confirmation.php:390
+msgid "Magazines"
+msgstr "Magazines"
+
+#: driver/price-settings.php:461 driver/price-settings.php:492
+msgid "Price Settings"
+msgstr "Prix"
+
+#: driver/price-settings.php:509
+msgid "Type your price for each service"
+msgstr "Tapez votre prix pour chaque service"
+
+#: driver/price-settings.php:599 driver/vehicle-settings.php:772
+msgid "Economy Class"
+msgstr "Classe Economie"
+
+#: driver/price-settings.php:601 driver/vehicle-settings.php:774
+msgid "Business Class"
+msgstr "Classe Affaire"
+
+#: driver/price-settings.php:603 driver/vehicle-settings.php:776
+msgid "First Class"
+msgstr "Première Classe"
+
+#: driver/price-settings.php:605 driver/price-settings.php:807
+#: driver/transfer-confirmation.php:140 driver/vehicle-settings.php:778
+#: driver/vehicle-settings.php:1118
+msgid "Motorcycle"
+msgstr "Taxi Moto"
+
+#: driver/price-settings.php:607 driver/price-settings.php:854
+#: driver/transfer-confirmation.php:161 driver/vehicle-settings.php:780
+#: driver/vehicle-settings.php:1194
+msgid "Coach"
+msgstr "Autocar"
+
+#: driver/price-settings.php:618 driver/price-settings.php:623
+#: driver/vehicle-settings.php:791 driver/vehicle-settings.php:795
+msgid "Economy Sedan"
+msgstr "Berline Economie"
+
+#: driver/price-settings.php:618 driver/vehicle-settings.php:791
+msgid ""
+"standard class cars like Peugeot 508, Mercedes Benz C Class, Citroen C5, "
+"Renault Laguna or similar"
+msgstr ""
+"voitures de classe standard, comme Peugeot 508, Mercedes Benz C Class, "
+"Citroen C5, Renault Laguna ou similaire"
+
+#: driver/price-settings.php:618 driver/price-settings.php:665
+#: driver/vehicle-settings.php:791 driver/vehicle-settings.php:860
+#: index.php:611
+msgid "Economy Van"
+msgstr "Van Economie"
+
+#: driver/price-settings.php:618 driver/vehicle-settings.php:791
+msgid ""
+"standard class vans like Volkswagen Caravelle, Mercedes-Benz Vito or similar"
+msgstr ""
+"vans de classe standard, comme Volkswagen Caravelle, Mercedes-Benz Vito ou "
+"similaire"
+
+#: driver/price-settings.php:634 driver/price-settings.php:667
+#: driver/price-settings.php:712 driver/price-settings.php:732
+#: driver/price-settings.php:778 driver/price-settings.php:825
+#: driver/price-settings.php:872 driver/sidebar.php:34
+msgid "Transfers"
+msgstr "Transferts"
+
+#: driver/price-settings.php:634 driver/price-settings.php:667
+#: driver/price-settings.php:712 driver/price-settings.php:732
+#: driver/price-settings.php:778 driver/price-settings.php:825
+#: driver/price-settings.php:872
+msgid "Price per Kilometer"
+msgstr "Prix par Kilomètre"
+
+#: driver/price-settings.php:638 driver/price-settings.php:671
+#: driver/price-settings.php:716 driver/price-settings.php:736
+#: driver/price-settings.php:782 driver/price-settings.php:829
+#: driver/price-settings.php:876
+msgid "Minimum Price per Transfer"
+msgstr "Prix Minimum par Transfert"
+
+#: driver/price-settings.php:642 driver/price-settings.php:675
+#: driver/price-settings.php:720 driver/price-settings.php:740
+#: driver/price-settings.php:786 driver/price-settings.php:833
+#: driver/price-settings.php:880 driver/sidebar.php:36
+msgid "Disposals"
+msgstr "Mises à Dispo"
+
+#: driver/price-settings.php:642 driver/price-settings.php:675
+#: driver/price-settings.php:720 driver/price-settings.php:740
+#: driver/price-settings.php:786 driver/price-settings.php:833
+#: driver/price-settings.php:880
+msgid "Price per Hour"
+msgstr "Prix par Heure"
+
+#: driver/price-settings.php:647
+msgid "My Business Area"
+msgstr "Mon secteur d'activité"
+
+#: driver/price-settings.php:649 driver/profile-settings.php:342
+msgid "Location"
+msgstr "Lieu"
+
+#: driver/price-settings.php:656
+msgid "Round"
+msgstr ""
+
+#: driver/price-settings.php:656
+msgid "Round by Km"
+msgstr ""
+
+#: driver/price-settings.php:690 driver/price-settings.php:694
+#: driver/vehicle-settings.php:914 driver/vehicle-settings.php:918
+#: index.php:623
+msgid "Business Sedan"
+msgstr "Berline Affaire"
+
+#: driver/price-settings.php:690 driver/vehicle-settings.php:914
+msgid ""
+"business class cars like Mercedes-Benz E Class, BMW 5 Series, Audi A6 or "
+"similar"
+msgstr ""
+"voitures de classe affaire Mercedes-Benz E Class, BMW 5 Series, Audi A6 ou "
+"similaire"
+
+#: driver/price-settings.php:690 driver/price-settings.php:730
+#: driver/vehicle-settings.php:914 driver/vehicle-settings.php:983
+#: index.php:635
+msgid "Business Van"
+msgstr "Van Affaire"
+
+#: driver/price-settings.php:690 driver/vehicle-settings.php:914
+msgid ""
+"business class vans like Mercedes-Benz Viano, Mercedes-Benz Class V, "
+"Volkswagen Multivan or similar"
+msgstr ""
+"vans de classe affaire, comme Mercedes-Benz Viano, Mercedes-Benz Class V, "
+"Volkswagen Multivan ou similaire"
+
+#: driver/price-settings.php:755 driver/price-settings.php:759
+#: driver/vehicle-settings.php:1037 driver/vehicle-settings.php:1041
+msgid "First Class Sedan"
+msgstr "Berline Première Classe"
+
+#: driver/price-settings.php:755 driver/vehicle-settings.php:1037
+msgid ""
+"First class cars like Mercedes Benz S Class, BMW 7 Series, Porsche Panamera "
+"or similar"
+msgstr ""
+"voitures de classe première Mercedes Benz S Class, BMW 7 Series, Porsche "
+"Panamera ou similaire"
+
+#: driver/profile-settings.php:167 newpassword.php:435
+msgid "The two new passwords does not match."
+msgstr "Les deux nouveaux mots de passe ne correspondent pas."
+
+#: driver/profile-settings.php:169
+msgid "Please type the correct current password."
+msgstr "S'il vous plaît entrez le mot de passe actuel correcte."
+
+#: driver/profile-settings.php:226
+msgid "Photo succesfully updated."
+msgstr "Photo avec succès mis à jour."
+
+#: driver/profile-settings.php:247
+msgid "Photo succesfully saved."
+msgstr "Photo enregistrée avec succès."
+
+#: driver/profile-settings.php:253
+msgid "Wrong file format."
+msgstr "Mauvais format du fichier."
+
+#: driver/profile-settings.php:255
+msgid "File size to large."
+msgstr "Veuillez diminuer la taille du fichier."
+
+#: driver/profile-settings.php:270 driver/profile-settings.php:301
+msgid "Account Settings"
+msgstr "Paramètres du compte"
+
+#: driver/profile-settings.php:315
+msgid "Personal Infomation"
+msgstr "Information personnelle"
+
+#: driver/profile-settings.php:334
+msgid "Phone Number"
+msgstr "Numéro de téléphone"
+
+#: driver/profile-settings.php:338
+msgid "Second Phone (Optional)"
+msgstr "Deuxième téléphone (facultatif)"
+
+#: driver/profile-settings.php:344
+msgid "Company / First & Last Name (no company)"
+msgstr "Société / Nom & Prénom (Auto-Entrepreneur)"
+
+#: driver/profile-settings.php:348
+msgid "Street Address"
+msgstr "Adresse"
+
+#: driver/profile-settings.php:352
+msgid "City"
+msgstr "Ville"
+
+#: driver/profile-settings.php:356
+msgid "ZIP code/Postal code"
+msgstr "Code Postal"
+
+#: driver/profile-settings.php:360
+msgid "Country"
+msgstr "Pays"
+
+#: driver/profile-settings.php:364
+msgid "Professional Information"
+msgstr "Information professionnelle"
+
+#: driver/profile-settings.php:366
+msgid "Spoken Languages"
+msgstr "Langues parlées"
+
+#: driver/profile-settings.php:371
+msgid "Description"
+msgstr "Description"
+
+#: driver/profile-settings.php:377
+msgid "Save Changes"
+msgstr "Sauvegarder les modifications"
+
+#: driver/profile-settings.php:381
+msgid "Change Password"
+msgstr "Changer le mot de passe"
+
+#: driver/profile-settings.php:384
+msgid "Current Password"
+msgstr "Mot de passe actuel"
+
+#: driver/profile-settings.php:388 newpassword.php:555
+msgid "New Password"
+msgstr "Nouveau mot de passe"
+
+#: driver/profile-settings.php:392 newpassword.php:559
+msgid "New Password Again"
+msgstr "Retapez le nouveau mot de passe"
+
+#: driver/profile-settings.php:399
+msgid "Profile Photo"
+msgstr "Photo de Profil"
+
+#: driver/profile-settings.php:403
+msgid "Upload Photo"
+msgstr "Enregistrer Photo"
+
+#: driver/profile-settings.php:416
+msgid "These fields will appear in the search results"
+msgstr "Ces champs apparaîtront dans les résultats de la recherche"
+
+#: driver/profile.php:36
+msgid "User Profile"
+msgstr "Profile Utilisateur"
+
+#: driver/profile.php:66
+msgid "Driver Profile"
+msgstr "Profile Chauffeur"
+
+#: driver/profile.php:76
+msgid "Total Offers"
+msgstr "Offres totales"
+
+#: driver/profile.php:78 driver/profile.php:87 driver/transfers.php:378
+#: driver/transfers.php:409
+msgid "New Transfers"
+msgstr "Nouveaux Transferts"
+
+#: driver/profile.php:118
+msgid "latest transfers"
+msgstr "derniers transferts"
+
+#: driver/profile.php:124 driver/transferdetails.php:97
+#: driver/transfers.php:427
+msgid "Origin"
+msgstr "Origine"
+
+#: driver/profile.php:125 driver/transferdetails.php:98
+#: driver/transfers.php:428
+msgid "Destination"
+msgstr "Destination"
+
+#: driver/profile.php:159 driver/profile.php:228 driver/transfers.php:469
+msgid "More details"
+msgstr "Plus de détails"
+
+#: driver/profile.php:185
+msgid "latest disposals"
+msgstr "dernières mises à dispositions"
+
+#: driver/sidebar.php:29
+msgid "Driver Partner"
+msgstr "Chauffeur Partenaire"
+
+#: driver/sidebar.php:32
+msgid "Profile"
+msgstr "Profile"
+
+#: driver/sidebar.php:38
+msgid "Booking History"
+msgstr "Historique"
+
+#: driver/sidebar.php:40
+msgid "Settings"
+msgstr "Paramètres"
+
+#: driver/sidebar.php:42
+msgid "Price"
+msgstr "Prix"
+
+#: driver/sidebar.php:44 driver/transfer-confirmation.php:454
+msgid "Vehicles"
+msgstr "Véhicules"
+
+#: driver/sidebar.php:46
+msgid "Payment"
+msgstr "Paiement"
+
+#: driver/sidebar.php:48
+msgid "Driver Support"
+msgstr "Support Chauffeur"
+
+#: driver/sidebar.php:50 header_cities.php:33 header_contact.php:33
+#: header_disposals.php:33 header_index.php:31 header_partners.php:31
+#: header_transfers.php:33
+msgid "Logout"
+msgstr "Déconnexion"
+
+#: driver/support.php:35 driver/support.php:65
+msgid "Support"
+msgstr "Support Client"
+
+#: driver/support.php:75
+msgid "Any questions ?"
+msgstr "Des questions ?"
+
+#: driver/support.php:76
+msgid "Email us at"
+msgstr "Envoyez-nous un mail à"
+
+#: driver/support.php:77
+msgid "Call us at"
+msgstr "Appelez-nous au"
+
+#: driver/transfer-accepted.php:58 driver/transfers.php:71
+#: driver/transfers.php:246
+msgid " "
+msgstr ""
+
+#: driver/transfer-accepted.php:213 driver/transfer-accepted.php:217
+#: driver/transfer-accepted.php:218 driver/transfer-accepted.php:250
+msgid "Transfer Accepted"
+msgstr "Transfert Accepté"
+
+#: driver/transfer-accepted.php:256
+msgid "You accepted the transfer!"
+msgstr "Vous avez accepté le transfert!"
+
+#: driver/transfer-accepted.php:256
+msgid "You will receive an email with the details all of the client."
+msgstr "Vous recevrez un email avec les details du client."
+
+#: driver/transfer-confirmation.php:35
+msgid "Sedan Economy"
+msgstr "Berline Economie"
+
+#: driver/transfer-confirmation.php:56
+msgid "Van Economy"
+msgstr "Van Economie"
+
+#: driver/transfer-confirmation.php:77
+msgid "Sedan Business"
+msgstr "Berline Affaire"
+
+#: driver/transfer-confirmation.php:98
+msgid "Van Business"
+msgstr "Van Affaire"
+
+#: driver/transfer-confirmation.php:119
+msgid "Sedan Luxury"
+msgstr "Berline Luxe"
+
+#: driver/transfer-confirmation.php:197 driver/transfer-confirmation.php:201
+#: driver/transfer-confirmation.php:202
+msgid "Confirm Transfer"
+msgstr "Confirmer Transfer"
+
+#: driver/transfer-confirmation.php:236 header_cities.php:120
+#: header_contact.php:120 header_disposals.php:120 header_index.php:122
+#: header_transfers.php:121
+msgid "Home"
+msgstr "Accueil"
+
+#: driver/transfer-confirmation.php:238
+msgid "Transfer Services"
+msgstr "Services de Transfert"
+
+#: driver/transfer-confirmation.php:247 index.php:96
+msgid "Transfer"
+msgstr "Transfert"
+
+#: driver/transfer-confirmation.php:250 index.php:593
+msgid "way"
+msgstr "trajet"
+
+#: driver/transfer-confirmation.php:274
+msgid "One-way"
+msgstr "Aller Simple"
+
+#: driver/transfer-confirmation.php:279
+msgid "Round-Trip"
+msgstr "Aller Retour"
+
+#: driver/transfer-confirmation.php:285 driver/transfer-confirmation.php:290
+msgid "Total"
+msgstr "Total"
+
+#: driver/transfer-confirmation.php:326
+msgid "Book"
+msgstr "Réserver"
+
+#: driver/transfer-confirmation.php:357
+msgid "Loading itinerary..."
+msgstr "Chargement de l'itinéraire"
+
+#: driver/transfer-confirmation.php:375
+msgid "Car Features"
+msgstr "Fonctionalités"
+
+#: driver/transfer-confirmation.php:377
+msgid "Up to"
+msgstr "Jusqu'à"
+
+#: driver/transfer-confirmation.php:377
+msgid "Passengers"
+msgstr "Passagers"
+
+#: driver/transfer-confirmation.php:379
+msgid "Suitcases"
+msgstr "Valises"
+
+#: driver/transfer-confirmation.php:381
+msgid "Phone Charger"
+msgstr "Chargeur Portable"
+
+#: driver/transfer-confirmation.php:384
+msgid "Bottle of Water"
+msgstr "Bouteilles d'eau"
+
+#: driver/transfer-confirmation.php:395
+msgid "Default Equipment"
+msgstr "Equipement"
+
+#: driver/transfer-confirmation.php:397
+msgid "Climate Control"
+msgstr "Régulation Climatique"
+
+#: driver/transfer-confirmation.php:399
+msgid "Air Conditioning"
+msgstr "Climatisation"
+
+#: driver/transfer-confirmation.php:401
+msgid "Stereo CD/MP3"
+msgstr "Stéréo CD/MP3"
+
+#: driver/transfer-confirmation.php:403
+msgid "FM Radio"
+msgstr "FM Radio"
+
+#: driver/transfer-confirmation.php:405
+msgid "Power Door Locks"
+msgstr "Verrouillage Electrique"
+
+#: driver/transfer-confirmation.php:410
+msgid "Accepted Payment Onboard"
+msgstr "Paiement Accepté à board"
+
+#: driver/transfer-confirmation.php:421
+msgid "Pickup Features"
+msgstr "Prise en Charge"
+
+#: driver/transfer-confirmation.php:423
+msgid "Terminal Pickup"
+msgstr "Au Terminal"
+
+#: driver/transfer-confirmation.php:425
+msgid "Meet and Greet"
+msgstr "Rencontre - Accueil"
+
+#: driver/transfer-confirmation.php:435
+msgid "Pick Up"
+msgstr "Départ"
+
+#: driver/transfer-confirmation.php:441
+msgid "Drop Off"
+msgstr "Arrivé"
+
+#: driver/transfer-confirmation.php:446
+msgid "Return"
+msgstr "Retour"
+
+#: driver/transfer-confirmation.php:476
+msgid "Spoken Langues"
+msgstr "Langues parlées"
+
+#: driver/transferdetails.php:33
+msgid "Transfer Details"
+msgstr "Détails du Transfert"
+
+#: driver/transferdetails.php:64
+msgid "New Transfer"
+msgstr "Nouveau Transfert"
+
+#: driver/transferdetails.php:76
+msgid "Transfer details are indicated below"
+msgstr "Les détails de transfert sont indiquées ci-dessous"
+
+#: driver/transferdetails.php:101 index.php:190
+msgid "Return Date"
+msgstr "Date Retour"
+
+#: driver/transferdetails.php:102 index.php:196
+msgid "Return Time"
+msgstr "Heure Retour"
+
+#: driver/transfers.php:421
+msgid "Accept transfers in the list below"
+msgstr "Accepter les transferts dans la liste ci-dessous"
+
+#: driver/vehicle-settings.php:634 driver/vehicle-settings.php:665
+msgid "Vehicle Settings"
+msgstr "Réglage des Véhicules"
+
+#: driver/vehicle-settings.php:682
+msgid "Enter the brand and model of your vehicles for each service"
+msgstr "Saisissez la marque et le modèle de vos véhicules pour chaque service"
+
+#: driver/vehicle-settings.php:813 driver/vehicle-settings.php:862
+#: driver/vehicle-settings.php:936 driver/vehicle-settings.php:985
+#: driver/vehicle-settings.php:1060 driver/vehicle-settings.php:1136
+#: driver/vehicle-settings.php:1212
+msgid "Vehicles (Brand and Model)"
+msgstr "Véhicules (Marque et modèle)"
+
+#: driver/vehicle-settings.php:819 driver/vehicle-settings.php:868
+#: driver/vehicle-settings.php:942 driver/vehicle-settings.php:991
+#: driver/vehicle-settings.php:1066 driver/vehicle-settings.php:1142
+#: driver/vehicle-settings.php:1218
+msgid "Passengers accepted"
+msgstr "Passagers acceptés"
+
+#: driver/vehicle-settings.php:821 driver/vehicle-settings.php:870
+#: driver/vehicle-settings.php:944 driver/vehicle-settings.php:993
+#: driver/vehicle-settings.php:1068 driver/vehicle-settings.php:1144
+#: driver/vehicle-settings.php:1220
+msgid "Suitcases accepted"
+msgstr "Valises acceptés"
+
+#: footer.php:6 header_cities.php:9 header_contact.php:9 header_disposals.php:9
+#: header_partners.php:9 header_transfers.php:9
+msgid "Home page"
+msgstr "Accueil"
+
+#: footer.php:35
+msgid "Enter your E-mail Address"
+msgstr "Entrez votre Adresse E-mail"
+
+#: footer.php:37
+msgid "We Never Send Spam"
+msgstr "On n'envoie jamais de spam"
+
+#: footer.php:53
+msgid "About US"
+msgstr "A Propos"
+
+#: footer.php:57
+msgid "Best Price Guarantee"
+msgstr "Garantie du Meilleur Prix"
+
+#: footer.php:61 legal.php:72 terms.php:15
+msgid "Terms and Conditions"
+msgstr "CGV"
+
+#: footer.php:63 legal.php:15 legal.php:49
+msgid "Legal Notices"
+msgstr ""
+
+#: footer.php:68
+msgid "Driver Account"
+msgstr "Espace Chauffeur"
+
+#: footer.php:70
+msgid "Customer Account"
+msgstr "Espace Client"
+
+#: footer.php:73 header_cities.php:31 header_contact.php:31
+#: header_disposals.php:31 header_transfers.php:31
+msgid "My Account"
+msgstr "Mon Compte"
+
+#: footer.php:77
+msgid "Feedback"
+msgstr "Avis"
+
+#: footer.php:79
+msgid "Our Clients"
+msgstr "Nos Clients"
+
+#: footer.php:85
+msgid "Have Questions?"
+msgstr "Des Questions?"
+
+#: footer.php:88
+msgid "24/7 Dedicated Customer Support"
+msgstr "Service Clients Dédié 24/24"
+
+#: header_cities.php:26 header_contact.php:26 header_disposals.php:26
+#: header_index.php:26 header_partners.php:26 header_transfers.php:26
+#: newpassword.php:520
+msgid "Client"
+msgstr "Voyageur"
+
+#: header_cities.php:28 header_contact.php:28 header_disposals.php:28
+#: header_index.php:28 header_partners.php:28 header_transfers.php:28
+#: newpassword.php:524
+msgid "Driver"
+msgstr "Chauffeur"
+
+#: header_cities.php:121 header_contact.php:121 header_disposals.php:121
+#: header_index.php:123 header_transfers.php:122
+msgid "Cities"
+msgstr "Villes"
+
+#: header_cities.php:123 header_contact.php:123 header_disposals.php:123
+#: header_index.php:54 header_index.php:125 header_transfers.php:124
+msgid "Contact"
+msgstr "Contact"
+
+#: index.php:35 legal.php:19 terms.php:19
+msgid "airport transfers, HopDriver, disposal services"
+msgstr "transferts aéroports, HopDriver, mises à disposition"
+
+#: index.php:98
+msgid "Hourly"
+msgstr "Par Heure"
+
+#: index.php:107
+msgid "One Way"
+msgstr "Un Aller"
+
+#: index.php:109
+msgid "Round Trip"
+msgstr "Aller Retour"
+
+#: index.php:122 index.php:163
+msgid "From"
+msgstr "Départ"
+
+#: index.php:128 index.php:169
+msgid "To"
+msgstr "Arrivée"
+
+#: index.php:138 index.php:178
+msgid "Pick-up Date"
+msgstr "Date"
+
+#: index.php:144 index.php:184
+msgid "Pick-up Time"
+msgstr "Heure"
+
+#: index.php:147 index.php:202 index.php:297
+msgid "Get Price"
+msgstr "Calculer Prix"
+
+#: index.php:219
+msgid "Start Location"
+msgstr "Adresse de départ"
+
+#: index.php:225
+msgid "End Location"
+msgstr "Adresse de fin"
+
+#: index.php:234
+msgid "Start Date"
+msgstr "Date"
+
+#: index.php:240
+msgid "Start Time"
+msgstr "Heure"
+
+#: index.php:246
+msgid "Last Day Pick-Up Date"
+msgstr "Prise en charge dernier jour"
+
+#: index.php:252
+msgid "Last Day Pick-Up Time"
+msgstr "Prise en charge dernier jour"
+
+#: index.php:258
+msgid "Hours / day"
+msgstr "Heures / jour"
+
+#: index.php:544
+msgid "Exclusive Pick-Up"
+msgstr "Exclusivité"
+
+#: index.php:545
+msgid ""
+"You are free to pay your chosen driver on-site and after the ride. You'll be "
+"in direct communication with the driver and you can set up a meeting point "
+"together."
+msgstr ""
+"Il vous est possible de payer le chauffeur choisi directement et après la "
+"course. Vous serez en communication directe avec le chauffeur et vous "
+"pourrez fixer ensemble un lieu de rendez-vous."
+
+#: index.php:554
+msgid "Best Transport Agent"
+msgstr "Meilleur Agent de Transport"
+
+#: index.php:555
+msgid ""
+"Every driver on this platform is independent and offers his own exclusive "
+"services throughout every city in Europe. Stay assured that your needs won't "
+"by any chance be avoided."
+msgstr ""
+"Chaque chauffeur de la présente plateforme est indépendant et offre ses "
+"propres services exclusifs à travers chaque ville d'Europe. Soyez assuré que "
+"vos exigences ne seront en aucun cas négligées."
+
+#: index.php:564
+msgid "Trust & Safety"
+msgstr "Confiance & Sécurité"
+
+#: index.php:565
+msgid ""
+"All drivers take you safely and privileged to wherever your address/hotel is "
+"located. Every driver has his own compamy and license."
+msgstr ""
+"Tous les chauffeurs vous conduisent de manière sécurisée et privilégiée à "
+"n'importe quelle adresse/hotel de votre choix. Chaque chauffeur possède sa "
+"propre compagnie et licence."
+
+#: index.php:578
+msgid "Pay the driver on-site"
+msgstr "Payez le chauffeur sur place"
+
+#: index.php:591
+msgid "Charles de Gaulle airport - Paris city"
+msgstr "Aéroport Charles de Gaulle - Paris"
+
+#: index.php:592
+msgid "Starting at"
+msgstr "À partir de"
+
+#: index.php:593
+msgid "Book Now"
+msgstr "Réservez"
+
+#: index.php:600
+msgid "These are your choices"
+msgstr "Ceci sont vos choix"
+
+#: index.php:619 index.php:631
+msgid "Business class"
+msgstr "Classe Affaire"
+
+#: index.php:643
+msgid "Luxury class"
+msgstr "Classe Luxe"
+
+#: index.php:647
+msgid "Luxury Sedan"
+msgstr "Berline Luxe"
+
+#: legal.php:20 terms.php:20
+msgid "Aiport transfers and disposal services"
+msgstr "Transferts aéroport et services à l'heure"
+
+#: legal.php:50
+msgid "HopDriver is a website edited by Voklee SAS with a capital of"
+msgstr ""
+
+#: legal.php:66
+msgid "Website"
+msgstr ""
+
+#: legal.php:68
+msgid "Web Hoster"
+msgstr ""
+
+#: legal.php:72
+msgid "Terms and Conditions can be found following on"
+msgstr ""
+
+#: legal.php:72
+msgid "this page"
+msgstr ""
+
+#: newpassword.php:44 newpassword.php:264 newpassword.php:305
+msgid "No account with that e-mail address exists."
+msgstr "Aucun compte avec cet e-mail existe."
+
+#: newpassword.php:71 newpassword.php:171
+msgid "Resetting your HopDriver password"
+msgstr "Réinitialiser votre mot de passe HopDriver"
+
+#: newpassword.php:124 newpassword.php:224
+msgid "An e-mail has been sent to"
+msgstr "Un e-mail a été envoyé à"
+
+#: newpassword.php:124 newpassword.php:224
+msgid "with further instructions"
+msgstr "avec plus d'instructions"
+
+#: newpassword.php:405 newpassword.php:427
+msgid "Password succesfully changed."
+msgstr "Mot de passe modifié avec succès"
+
+#: newpassword.php:493
+msgid ""
+"Enter your email address to reset your password. You may need to check your "
+"spam folder or unblock no-reply@imagidev.com."
+msgstr ""
+"Entrez votre adresse e-mail pour réinitialiser votre mot de passe. Vous "
+"devrez peut-être vérifier votre dossier spam ou débloquer no-reply@imagidev."
+"com."
+
+#: newpassword.php:527
+msgid "Send"
+msgstr "Envoyer"
+
+#: newpassword.php:534
+msgid "Enter a new password for your account"
+msgstr "Veuillez saisir un nouveau mot de passe pour votre compte"
+
+#: newpassword.php:564
+msgid "Submit"
+msgstr "Envoyer"
+
+#: terms.php:49
+msgid "Terms & Conditions"
+msgstr ""
+
+#: terms.php:50
+msgid ""
+"By visiting HopDriver.com you agree to the following terms and conditions"
+msgstr ""
+
+#~ msgid "Accepted Disposal on"
+#~ msgstr "Mise à Dispo Accepté pour le"
+
+#~ msgid "Canceled Disposal on"
+#~ msgstr "Mise à Dispo Annulé pour le"
+
+#~ msgid "Your Registration as Driver on HopDriver"
+#~ msgstr "Votre inscription comme Chauffeur sur HopDriver"
+
+#~ msgid "Accepted Transfer on"
+#~ msgstr "Transfert accepté pour le"
+
+#~ msgid "Canceled Transfer on"
+#~ msgstr "Transfert annulé pour le"
+
+#~ msgid "Paris airport transfers, HopDriver, disposal services"
+#~ msgstr "transferts Paris aéroports, mise à disposition, chauffeur privé"
+
+#~ msgid "Paris aiport transfers and disposal services"
+#~ msgstr ""
+#~ "transferts Paris aéroports et mise à disposition de véhicules avec "
+#~ "chauffeur"
+
+#~ msgid "Our Transportation Fleet"
+#~ msgstr "Notre flotte de transport"
+
+#~ msgid "Economy class"
+#~ msgstr "Classe Economie"
+
+#~ msgid "Luxury Class"
+#~ msgstr "Classe Luxe"
+
+#~ msgid ""
+#~ "Enter your email address to reset your password. You may need to check "
+#~ "your spam folder or unblock no-reply@hopdriver.com."
+#~ msgstr ""
+#~ "Saisissez votre adresse e-mail pour réinitialiser votre mot de passe. "
+#~ "Vous devrez peut-être consulter votre dossier de spams ou autoriser no-"
+#~ "reply@hopdriver.com."
+
+#~ msgid "Airport transfers and disposal services"
+#~ msgstr "Transferts aéroports et mises à disposition"
+
+#~ msgid "End Date"
+#~ msgstr "Date de fin"
+
+#~ msgid "End Time"
+#~ msgstr "Heure de fin"
+
+#~ msgid ""
+#~ "Login to choose the driver you like the most. All drivers are equally "
+#~ "good, bad drivers are immediatly banned."
+#~ msgstr ""
+#~ "Connectez-vous pour choisir votre chauffeur. Tous les chauffeurs sont "
+#~ "tout aussi qualifies, les mauvais chauffeurs sont bannis immédiatement."
+
+#~ msgid "Company"
+#~ msgstr "Société"
+
+#~ msgid "IMPORTANT: This will appear in the search results"
+#~ msgstr "IMPORTANT: Ceci apparaîtra dans les résultats de recherche"
+
+#~ msgid "All year round"
+#~ msgstr "Toute l'année"
+
+#~ msgid "Transportation from CDG to Paris"
+#~ msgstr "Services de Transport"
+
+#~ msgid "Our Cities"
+#~ msgstr "Nos Villes"
+
+#~ msgid "cities"
+#~ msgstr "villes"
+
+#~ msgid "Transfers and disposal vehicles with driver."
+#~ msgstr "Transferts et mise à disposition de véhicules avec chauffeur."
+
+#~ msgid "Business class transfers and disposal cars with driver."
+#~ msgstr ""
+#~ "Transferts et mise à disposition type \"affaire\" de véhicules avec "
+#~ "chauffeur."
+
+#~ msgid "First class"
+#~ msgstr "Première classe"
+
+#~ msgid "First class transfers and disposal cars with driver."
+#~ msgstr ""
+#~ "Transferts et mise à disposition type \"première classe\" de véhicules "
+#~ "avec chauffeur."
+
+#~ msgid ""
+#~ "We'll be waiting for you holding a sign with your name and take you to "
+#~ "the car just as you get off the plane."
+#~ msgstr ""
+#~ "On vous attendra avec un panneau de bievenue où votre nom sera inscrit et "
+#~ "vous guidera vers le véhicule juste au moment où vous sortez de l'avion."
+
+#~ msgid ""
+#~ "We offer exclusive service throughout the whole Paris airport transfer "
+#~ "service. Stay assured that your needs won't by any chance be avoided."
+#~ msgstr ""
+#~ "On offre un service exclusive dans tout l'Europe. Vos besoins ne serons "
+#~ "pas négligés."
+
+#~ msgid ""
+#~ "Our Paris airport shuttle driver takes you safely and privileged to "
+#~ "wherever your address/hotel is in Paris ."
+#~ msgstr ""
+#~ "Notre chauffeur vous conduiera en tout confiance et sécurité vers "
+#~ "l'adresse d'arrivée que vous voulez."
+
+#~ msgid "Paris Car Service"
+#~ msgstr "Service exclusif"
+
+#~ msgid "Your Name"
+#~ msgstr "Votre Nom"
+
+#~ msgid "Driver Details"
+#~ msgstr "Détails du Chauffeur"
+
+#~ msgid "Driver's Name"
+#~ msgstr "Nom du chauffeur"
+
+#~ msgid "Driver's E-mail"
+#~ msgstr "Email du chauffeur"
+
+#~ msgid "Driver's Phone Number"
+#~ msgstr "Numéro de portable du chauffeur"
+
+#~ msgid "Driver's Company"
+#~ msgstr "Société du Chauffeur"
+
+#~ msgid "View details"
+#~ msgstr "Voir les détails"
+
+#~ msgid "View"
+#~ msgstr "Voir"
+
+#~ msgid "This member already exists."
+#~ msgstr "Ce member existe déjà."
+
+#~ msgid "Your Registration on HopDriver"
+#~ msgstr "Votre enregistrement sur HopDriver"
+
+#~ msgid "Customer account"
+#~ msgstr "Compte client"
+
+#~ msgid "English"
+#~ msgstr "Anglais"
+
+#~ msgid "Francais"
+#~ msgstr "Francais"
+
+#~ msgid "At least 8 characters"
+#~ msgstr "Au moins 8 caractères"
+
+#~ msgid "Your Transfer on"
+#~ msgstr "Votre Transfert le"
+
+#~ msgid "Transfer on"
+#~ msgstr "Transfert le"
+
+#~ msgid "Transfer Booked"
+#~ msgstr "Transfert Réservé"
+
+#~ msgid "Your transfer has been booked!"
+#~ msgstr "Votre transfert a été réservé!"
+
+#~ msgid "Now you just have to wait for the driver confirmation."
+#~ msgstr "Il vous reste qu'à attendre la confirmation du chauffeur."
+
+#~ msgid "Economy Car"
+#~ msgstr "Economy Berline"
+
+#~ msgid "Business Car"
+#~ msgstr "Business Berline"
+
+#~ msgid "First Class Car"
+#~ msgstr "Première Classe Berline"
+
+#~ msgid "E-mail us"
+#~ msgstr "E-mail"
+
+#~ msgid "Email already exists. Please login or contact us."
+#~ msgstr "L'email existe déjà. Veuillez changer d'email ou nous contacter."
+
+#~ msgid "Contact us if you forgot it."
+#~ msgstr "Contactez-nous si vous l'avez oublié."
+
+#~ msgid "Error ! Wrong email or password."
+#~ msgstr "Erreur ! E-mail ou mot de passe incorrect."
+
+#~ msgid "Transfer Booking"
+#~ msgstr "Réservation de Transfert"
+
+#~ msgid "Transfer date"
+#~ msgstr "Date du Transfert"
+
+#~ msgid "Booking"
+#~ msgstr "Réservation"
+
+#~ msgid "New Customer"
+#~ msgstr "Nouveau Client"
+
+#~ msgid "Phone Number (with country code)"
+#~ msgstr "Numéro mobile (avec le code pays)"
+
+#~ msgid "I Agree To"
+#~ msgstr "J'accèpte aux"
+
+#~ msgid "Terms"
+#~ msgstr "Conditions"
+
+#~ msgid "Flight Number (optional)"
+#~ msgstr "Numéro de vol (facultatif)"
+
+#~ msgid "Other comments (optional)"
+#~ msgstr "Autres commentaires (facultatif)"
+
+#~ msgid ""
+#~ "Mention services or options you would like to have. Like child seats or "
+#~ "meeting spots."
+#~ msgstr ""
+#~ "Services ou options que vous aimeriez avoir. Comme les sièges pour "
+#~ "enfants ou des endroits de rencontre."
+
+#~ msgid "Book now"
+#~ msgstr "Réserver"
+
+#~ msgid "Select your Driver"
+#~ msgstr "Choisissez votre Chauffeur"
+
+#~ msgid "Previous"
+#~ msgstr "Précédent"
+
+#~ msgid "Service for"
+#~ msgstr "Service pour"
+
+#~ msgid "Average price for 30km (Paris-CDG)"
+#~ msgstr "Prix moyen pour 30 km (Paris-CDG)"
+
+#~ msgid "City or Airport"
+#~ msgstr "Ville ou Aéroport"
+
+#~ msgid "Distance"
+#~ msgstr "Distance"
+
+#~ msgid "km"
+#~ msgstr "km"
+
+#~ msgid "Duration"
+#~ msgstr "Durée"
+
+#~ msgid "mins"
+#~ msgstr "min"
+
+#~ msgid "Update Details"
+#~ msgstr "Mettre à Jour"
+
+#~ msgid "Select brand"
+#~ msgstr "Choisir marque"
+
+#~ msgid "All brands"
+#~ msgstr "Toutes les marques"
+
+#~ msgid "OK"
+#~ msgstr "OK"
+
+#~ msgid "Select Transfer Service"
+#~ msgstr "Choisir Service de Transfert"
+
+#~ msgid "Select Transfer"
+#~ msgstr "Choisir Transfert"
+
+#~ msgid "Select"
+#~ msgstr "Choisir"
+
+#~ msgid "Select Economy Transfer"
+#~ msgstr "Choisir Transfert Economy"
+
+#~ msgid "Select Business Transfer"
+#~ msgstr "Choisir Transfert Business"
+
+#~ msgid "Select First Class Transfer"
+#~ msgstr "Choisir Transfer Première Classe"
+
+#~ msgid "Select Motorcycle Transfer"
+#~ msgstr "Choisir Transfert Moto"
+
+#~ msgid "Select Coach Transfer"
+#~ msgstr "Choisir Transfert Bus"
+
+#~ msgid "Enter the name of your vehicles for each service"
+#~ msgstr ""
+#~ "Saisissez la marque et le modèle de vos véhicules pour chaque service"
+
+#~ msgid "Addition Elements Onboard"
+#~ msgstr "Elements Additionels"
+
+#~ msgid "Contact us at"
+#~ msgstr "Contactez-nous au"
+
+#~ msgid "Overview"
+#~ msgstr "Accueil"
+
+#~ msgid "Profile Settings"
+#~ msgstr "Paramètres Profile"
+
+#~ msgid "Flightnumber (optional)"
+#~ msgstr "Numéro de vol (facultatif)"
+
+#~ msgid "Transfer in"
+#~ msgstr "Transfer "
+
+#~ msgid "Luxury class transfers and disposal cars with driver."
+#~ msgstr ""
+#~ "Transferts et mise à disposition type \"première classe\" de véhicules "
+#~ "avec chauffeur."
+
+#~ msgid "Paris airport transfers, Voklee, disposal services"
+#~ msgstr "transferts Paris aéroports"
+
+#~ msgid "Book a transfer"
+#~ msgstr "Réserver un transfert"
+
+#~ msgid "Welcome"
+#~ msgstr "Bienvenue"
+
+#~ msgid "All dudes"
+#~ msgstr "Tous les mecs"

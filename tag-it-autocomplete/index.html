@@ -1,0 +1,74 @@
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/flick/jquery-ui.css">
+	<link href="css/jquery.tagit.css" rel="stylesheet" type="text/css">	
+</head>
+
+<body>
+
+	<!--<p>This geotag demo uses the <strong>jQuery tag-it</strong> control and <strong>Google's AutocompleteService API</strong>.</p>
+			https://github.com/aehlke/tag-it
+			http://stackoverflow.com/questions/21749924/jquery-tag-it-allow-tags-only-from-autocomplete-source
+			http://crosscuttingconcerns.com/Autocomplete-multi-select-of-Geographical-Places
+			http://stackoverflow.com/questions/3314567/how-to-get-form-input-array-into-php-array
+			http://php.net/manual/en/faq.html.php
+			http://php.net/manual/fr/function.array.php
+			Thank you for this wonderful plugin! How do you put each tag into a PHP variable to insert it into a database? Each tag would be inserted into an array like his:
+$tags= array( 'Paris,France', 'Ontario, Canada', 'Springfield, IL; United States');
+And we would have to separete them by category. Tags that are cities are stored inside a "city" array and those that are regions in a "region" array and countries in a "country" array. 
+$tags= array (
+    "city"  => array("Paris, France", "London, UK", "New York, United States"),
+    "region" => array("Ile-de-France, France", "Normandie, France", "Skåne, Sweden"),
+    "country"   => array("France", "United States", "Germany", "Belgium", "Sweden")
+);
+Do you how know how this could be made?
+		-->
+
+		<!--<form action="index.php" method="post"> Google "php make an array from input values"-->
+	<ul id="courseLocation">
+	</ul>
+	
+
+	<input type="button" id="submit-button" value="Submit" />
+
+	<ul id="result-list">
+	</ul>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.12/jquery-ui.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/tag-it.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places"></script>	
+	<script type="text/javascript">
+		$("#submit-button").click(function() {
+			$("#result-list").empty();
+			var tags = $("#courseLocation").tagit("assignedTags");
+			for(var i=0; i<tags.length; i++)
+				$("#result-list").append("<li>" + tags[i] + "</li>");
+		});
+		$(document).ready(function() {
+			$("#courseLocation").tagit({
+				allowSpaces: true,
+				autocomplete: {
+					delay: 0,
+					minLength: 2,
+					source: function(request, response) {
+						var callback = function (predictions, status) {
+							if (status != google.maps.places.PlacesServiceStatus.OK) {
+								return;
+							}					
+							var data = $.map(predictions, function(item) {
+								return item.description;
+							});
+							response(data);
+						}		
+						var service = new google.maps.places.AutocompleteService();
+						service.getQueryPredictions({ input: request.term }, callback);
+					}
+				}
+			});
+		});
+	</script>
+</body>
+
+</html>
